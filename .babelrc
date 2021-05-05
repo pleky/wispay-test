@@ -1,0 +1,16 @@
+{
+    // "presets": ["react-native"],
+    "plugins": [
+      ["module-resolver", {
+        "root": ["./src"],
+        "extensions": [".ios.js", ".android.js", ".js", ".json"],
+        "alias": {
+          "Assets": "./src/assets",
+          "Components": "./src/components",
+          "Navigators": "./src/navigators",
+          "Screens": "./src/screens",
+          "Utils": "./src/utils"
+        }
+      }]
+    ]
+  }

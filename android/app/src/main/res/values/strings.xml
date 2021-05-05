@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">WispayTest</string>
+    <string name="default_notification_channel_id" >WisPay_Channel</string>
+</resources>
